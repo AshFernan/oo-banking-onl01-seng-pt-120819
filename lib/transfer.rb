@@ -7,7 +7,6 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @amount = amount
-    
   end
 
   def valid?
@@ -33,7 +32,6 @@ class Transfer
       self.status = "reversed"
     else
       reject_transfer
-      
     end
   
   end
